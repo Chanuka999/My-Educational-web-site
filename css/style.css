@@ -48,6 +48,13 @@ body{
     padding-left: 30rem;
 }
 
+body.dark{
+    --white:#222;
+    --black:#fff;
+    --light-color:#aaa;
+    --light-bg:#333;
+    --border:0.1rem solid rgba(255,255,255,0.2);
+}
 body.active{
     padding-left: 0;
 }
@@ -447,6 +454,13 @@ section{
     margin-top: 0.5rem;
     padding: 0.5rem 0;;
 }
+
+.courses .more-btn{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+
 
 
 
