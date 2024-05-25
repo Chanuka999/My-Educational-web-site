@@ -500,7 +500,7 @@ section{
 }
 
 .about .box-container .box{
-    flex: 1 1 20rem;
+    flex: 1 1 25rem;
     display: flex;
     background-color: var(--white);
     border-radius: 0.5rem;
@@ -515,13 +515,13 @@ section{
 }
 
 .about .box-container .box h3{
-    color: var(--main-color);
+    color: var(--black);
     font-size: 2.5rem;
     margin-bottom: 0.2rem;
 }
 
 .about .box-container .box h3{
-    color:  var(--main-color);
+    color:  var(--black);
 }
 
 .about .box-container .box span{
@@ -529,6 +529,51 @@ section{
    color: var(--light-color);
 }
 
+.reviews .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.reviews .box-container .box{
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background-color: var(--white);
+    padding-top: 1.5rem;
+}
+
+.reviews .box-container .box p{
+   line-height: 2 ;
+    font-style: 1.7rem;
+    color: green;
+}
+
+.reviews .box-container .box .user{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+.reviews .box-container .box .user img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .box-container .box .user h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 0.2rem;
+}
+
+.reviews .box-container .box .user .stars i{
+    color: green;
+    font-size: 1.5rem;
+}
 
 
 
@@ -638,5 +683,9 @@ section{
     .flex-btn{
         flex-flow: column;
         gap: 0;
+    }
+
+    .about .row .image img{
+        height: auto;
     }
   }
