@@ -771,7 +771,7 @@ playlist .row .col .save-list button {
     display: flex;
     gap: 2rem;
     
-    padding-bottom: 1rem;
+    padding-bottom: 1.5rem;
     border-bottom: var(--border);
 }
 
@@ -801,6 +801,81 @@ playlist .row .col .save-list button {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.watch-video .video-details .tutor h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: 0.2rem;
+}
+
+.watch-video .video-details .tutor span{
+    color: var(--light-color);
+    font-size: 1.5rem;
+}
+
+.watch-video .video-details .flex{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+
+.watch-video .video-details .flex a{
+    margin-top: 0;
+}
+
+.watch-video .video-details .flex button{
+    background-color: var(--light-bg);
+    cursor: pointer;
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    border-radius: 0.5rem;
+}
+
+.watch-video .video-details .flex button i{
+    color: var(--black);
+    margin-right: 1rem;
+}
+
+.watch-video .video-details .flex button span{
+    color: var(--light-color);
+}
+
+.watch-video .video-details .flex button:hover{
+    background-color: var(--black);
+}
+
+.watch-video .video-details .flex button:hover i{
+    color: var(--white);
+}
+
+.watch-video .video-details .flex button:hover span{
+    color: var(--white);
+}
+
+.watch-video .video-details .description{
+    padding-top: 2rem;
+}
+
+.watch-video .video-details .description{
+    padding-top: 2rem;
+}
+
+.watch-video .video-details .description p{
+    line-height: 1.5;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    white-space: in-line;
+}
+
+
+
+
+
+
+
+
+
 
 
 
