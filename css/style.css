@@ -738,20 +738,69 @@ playlist .row .col .save-list button {
 }
 
 
+.videos-container .box-container .box:hover .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin-top: 1rem;
+}
 
 
+.videos-container .box-container .box:hover h3{
+    color: var(--main-color);
+}
 
+.watch-video .video-details{
+    background-color: var(--white);
+   padding: 2rem;
+}
 
+.watch-video .video-details .video{
+    width: 100%;
+    border-radius: 0.5rem;
 
+  
+}
 
+.watch-video .video-details .title{
+    font-size: 2rem;
+    color: var(--black);
+    padding: 1.5rem 0;
+}
 
+.watch-video .video-details .info{
+    display: flex;
+    gap: 2rem;
+    
+    padding-bottom: 1rem;
+    border-bottom: var(--border);
+}
 
+.watch-video .video-details .info p{
+    font-size: 1.6rem;
+}
 
+.watch-video .video-details .info p i{
+    margin-right: 1rem;
+    color: var(--main-color);
+}
 
+.watch-video .video-details .info p span{
+    color: var(--light-color);
+}
 
+.watch-video .video-details .tutor{
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
 
-
-
+.watch-video .video-details .tutor img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
 
 
 
@@ -861,5 +910,8 @@ playlist .row .col .save-list button {
 
     .about .row .image img{
         height: auto;
+    }
+    .playlist .row .col .thumb img{
+        height: 20rem;
     }
   }
