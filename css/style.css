@@ -953,8 +953,17 @@ playlist .row .col .save-list button {
     background: none;
 }
 
+.teachers .search-tutor button:hover{
+    color: var(--main-color);
+}
 
-
+.teachers .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
 
 
 
