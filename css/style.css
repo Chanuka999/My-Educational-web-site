@@ -935,6 +935,39 @@ playlist .row .col .save-list button {
     clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
 }
 
+.teachers .search-tutor{
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+}
+
+
+.teachers .search-tutor input{
+    width: 100%;
+    font-size: 1.8rem;
+    color: var(--black);
+    background: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
