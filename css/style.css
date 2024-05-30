@@ -965,16 +965,46 @@ playlist .row .col .save-list button {
     justify-content: center;
 }
 
+.teachers .box-container .box{
+    border-radius: 0.5rem;
+    padding: 2rem;
+    background-color: var(--white);
+}
 
+.teachers .box-container .box h3{
+   color: var(--black) ;
+}
 
+.teachers .box-container .box .tutor{
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
 
+.teachers .box-container .box .tutor img{
+   height:5rem ;
+   width: 5rem;
+   object-fit: cover;
+   border-radius: 50%;
+}
 
+.teachers .box-container .box .tutor h3{
+    color: var(--black);
+    font-size: 2rem;
+    margin-bottom: 0.2rem;
+}
 
+.teachers .box-container .box .tutor span{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
 
-
-
-
-
+.teachers .box-container .box p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+}
 
 
 
