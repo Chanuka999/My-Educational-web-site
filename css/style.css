@@ -1113,6 +1113,29 @@ playlist .row .col .save-list button {
     font-size: 1.8rem;
 }
 
+.contact .row form textarea{
+    height: 20rem;
+    resize: none;
+}
+
+.contact .box-container{
+    margin-top: 3rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+
+.contact .box-container .box{
+    flex: 1 1 30rem;
+    border-radius: 0.5rem;
+    background-color: var(--white);
+    padding: 2rem;
+}
+
+
+
 
 
 
