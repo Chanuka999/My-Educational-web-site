@@ -1006,6 +1006,112 @@ playlist .row .col .save-list button {
     color: var(--light-color);
 }
 
+.teachers .box-container .box p span{
+    color: var(--main-color);
+}
+
+.teachers .box-container .offer {
+    text-align: center;
+}
+
+.teachers .box-container .offer h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+.teachers .box-container .offer p{
+    line-height: 2;
+    padding-bottom: 0.5rem;
+}
+
+.tutor-profile .details{
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.tutor-profile .details .tutor{
+    margin-bottom: 2rem;
+}
+.tutor-profile .tutor img{
+     height: 10rem;
+     width: 10rem;
+     border-radius: 50%;
+     object-fit: cover;
+     margin-bottom: 0.5rem;
+}
+
+.tutor-profile .tutor h3{
+    font-size: 2rem;
+    color: var(--black);
+    margin: 0.5rem 0;
+}
+
+.tutor-profile .details .tutor span{
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.tutor-profile .details .flex{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.tutor-profile .details .flex p{
+    flex: 1 1 25rem;
+    border-radius: 0.5rem;
+    background-color: var(--light-bg);
+    padding: 1rem 3rem;
+    font-size: 2rem;
+    color: var(--light-color);
+}
+
+.tutor-profile .details .flex p span {
+    color: var(--main-color);
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+} 
+
+.contact .row .image{
+    flex: 1 1 50;
+
+}
+
+.contact .row .image img{
+    height: 50rem;
+    width: 100%;
+}
+
+.contact .row form{
+    flex: 1 1 30rem;
+    background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.contact .row form h3{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--black);
+}
+
+.contact .row form .box{
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    background-color: var(--light-bg);
+    padding: 1.4rem;
+    color: var(--black);
+    font-size: 1.8rem;
+}
 
 
 
