@@ -1245,14 +1245,54 @@ playlist .row .col .save-list button {
     min-height: calc(100vh - 20rem);
 }
 
-.form-container{
+.form-container form{
     background-color: var(--white);
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 50rem;
     
+}
+
+.form-container form h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.form-container form p{
+    padding-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+}
+
+.form-container form p span{
+    color: var(--red);
+}
+
+.form-container form .box{
+    width: 100%;
+    border-radius: 0.5rem;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    color: var(--black);
+    padding: 1.4rem;
 }
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
