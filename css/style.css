@@ -1077,6 +1077,7 @@ playlist .row .col .save-list button {
     display: flex;
     align-items: center;
     gap: 1.5rem;
+    flex-wrap: wrap;
 } 
 
 .contact .row .image{
@@ -1135,10 +1136,27 @@ playlist .row .col .save-list button {
 }
 
 
+.contact .box-container .box i{
+    font-size: 3rem;
+    color: var(--main-color);
+    margin-bottom: 1rem;
+}
 
 
+.contact .box-container .box h3{
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
 
 
+.contact .box-container .box a{
+    display: block;
+    margin-top: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.5;
+    margin-top: 0.5rem;
+}
 
 
 
@@ -1245,4 +1263,8 @@ playlist .row .col .save-list button {
     .playlist .row .col .thumb img{
         height: 20rem;
     }
+    .contact .row .image img{
+    height: auto;
+}
+
   }
