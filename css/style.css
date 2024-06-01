@@ -1238,9 +1238,17 @@ playlist .row .col .save-list button {
     margin-bottom: 0.2rem;
 }
 
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 20rem);
+}
 
-
-
+.form-container{
+    background-color: var(--white);
+    
+}
 
 
 
